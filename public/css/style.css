@@ -1,0 +1,120 @@
+
+#footer{font-size: 40px;} 
+
+#total-cart{ 
+ position:relative; 
+ display:inline; 
+ top:-13px;
+  left:-16px;
+} 
+
+
+.sidebar {
+  display: none;
+}
+.sidebarHead {
+  display: block;
+}
+@media (min-width: 768px){
+  .sidebar {
+    display: block;
+  }
+  .sidebarHead {
+    display: none;
+   }
+} *
+.homeintro{font-size: 16px;} 
+
+.grayscaleimg img{ 
+    
+    -webkit-filter: none;
+    filter: none; 
+     -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.3s ease; /* Firefox */
+    -ms-transition: all 0.3s ease; /* IE 9 */
+    -o-transition: all 0.3s ease; /* Opera */
+    transition: all 0.3s ease;
+  
+}
+
+.grayscaleimg:hover img { 
+ 
+   
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);   
+    -webkit-transform:scale(1.03); /* Safari and Chrome */
+    -moz-transform:scale(1.03); /* Firefox */
+    -ms-transform:scale(1.03); /* IE 9 */
+    -o-transform:scale(1.03); /* Opera */
+     transform:scale(1.03);
+  
+} 
+
+
+
+/*.lightboxcover {
+  position: relative;
+  width: 30%;
+}
+
+.categorieimg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #74787E;
+}
+
+.lightboxcover:hover .overlay {
+  opacity:0.2;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+*/
+
+.form-control.selectize-control{ 
+    
+  height: 34px;
+}
+
+.selectize-dropdown-content img{ width:20px; height:20px; margin-right: 3px; float:left; }
+
+.selectize-control::before {
+    -moz-transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    content: ' ';
+    z-index: 2;
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 34px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/spinner.gif);
+    background-size: 16px 16px;
+    opacity: 0;
+}
+.selectize-control.loading::before {
+    opacity: 1;
+}

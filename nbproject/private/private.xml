@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/myhero/resources/views/cms/cms_master.blade.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Product.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/PagesController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/CmsController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/resources/views/cms/cms_mmmaster.blade.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/ProductController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Requests/ProductRequest.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Middleware/AdminCms.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/ContentController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/MainController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/resources/views/master.blade.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/MenuController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/CategoryController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Requests/CategoryRequest.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/UserController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/resources/views/cms/dashboard.blade.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/Controller.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Categorie.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/resources/views/content/products.blade.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/resources/views/content/home.blade.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Controllers/ShopController.php</file>
+            <file>file:/C:/xampp/htdocs/myhero/app/Http/Middleware/VerifyCsrfToken.php</file>
+        </group>
+    </open-files>
+</project-private>
