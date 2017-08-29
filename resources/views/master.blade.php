@@ -91,7 +91,11 @@
             </div>
         </div>
  
- 
+  @if(!empty($dataJson))
+    @foreach(json_decode($dataJson, true) as $value)
+       {{ $value['record1']['record 2'] }}   
+    @endforeach
+@endif
  
  
 </header>  <br><br><br><br>
