@@ -20,7 +20,7 @@ if( !empty(request('query'))){
         
         
 ->get(); 
-         dd('justrandom');
+        
      $dataJson =$data->toJson();
         return view('master', compact('dataJson'));
 }else{ 
