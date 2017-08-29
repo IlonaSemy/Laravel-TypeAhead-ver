@@ -10,10 +10,24 @@ class AutoCompleteController extends MainController {
     {
         return view('master');
     }
+    public function autocomplete(Request $request)
+     {
+        
+if( !empty(request('query'))){
+    
+        $data = Product::select("title")
+        ->where("title","LIKE","%{$request->input('query')}%") 
+        
+        
+->get(); 
+         dd('justrandom');
+     $dataJson =$data->toJson();
+        return view('master', compact('dataJson'));
+}else{ 
 
-       public function autocomplete(Request $request)
-    {
-        $data = Product::select("title as name")->where("title","LIKE","%{$request->input('query')}%")->get();
-        return response()->json($data);
+  return view ('master', ['dataJson' => false]);
+   
+}
+
     }
 }
